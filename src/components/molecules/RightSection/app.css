@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.cls{
+    font-size: 1.1rem;
+    padding-right: 10rem;
+}
+
+@media screen and (max-width:1300px) {
+    .cls{
+        font-size: .9rem;
+    }
+    }
+
+    @media screen and (max-width:1000px) {
+        .cls{
+            font-size: 1.1rem;
+            text-align: center;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            padding-top: 3rem;
+        }
+        }

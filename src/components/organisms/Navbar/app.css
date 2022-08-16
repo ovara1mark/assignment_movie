@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+
+.icon{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 6px;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+    .nav{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .icon{
+        margin-right: -3rem;
+    }
+    .logo{
+        margin-left: -3rem;
+    }
+}

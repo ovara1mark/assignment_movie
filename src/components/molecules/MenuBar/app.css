@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 6px;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6rem;
+    margin-top: 4rem;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.menubar{
+    overflow: hidden;
+    display: none;
+    position: relative;
+}
+
+.grey{
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.navMenu{
+    background-color: #F0E7D1;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 9999999999999999999999999999999;
+}
