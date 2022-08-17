@@ -1,12 +1,16 @@
   
   .in-0 {
-    
+    width:15rem;
     font-size: 0.6rem;
     padding: 6px;
-    height: 5rem;
-    /* border:  1px solid black; */
+    height: 2rem;
+    border-radius: 1rem;
+    border:  1px solid black;
+    position:relative;
+    z-index: 99999999999999999999999999999999999999999999999;
   }
   
+
   .in-0:focus {
     outline: 0;
   }
@@ -17,4 +21,177 @@
     align-items: center;
     padding-top: 3rem;
     /* border: 1px solid black; */
+  }
+
+  .mt-5{
+    /* border:1px solid black; */
+    overflow: hidden;
+    width: 90%;
+    margin-top:2rem;
+    margin-left: 4rem;
+    position: relative;
+    z-index: 999999999999999999999999999999999999999999999999999;
+
+  }
+
+  .gt{
+    display: grid;
+    overflow-x: scroll;
+    grid-template-columns: 30% 30% 30% 30%;
+    overflow-y: scroll;
+    grid-column-gap: 1rem;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+  .gtx{
+    width:20rem;
+    height: 18rem;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:1200px) {
+    .gtx{
+      width:19rem;
+      height: 18rem;
+    }
+
+    .gt{
+      grid-template-columns: 33% 33% 33% 33%;
+      grid-column-gap: 2rem;
+    }
+  
+  }
+
+  @media screen and (max-width:1050px) {
+    .gtx{
+      width:19rem;
+      height: 18rem;
+    }
+
+    .gt{
+      grid-template-columns: 39% 39% 39% 39%;
+      grid-column-gap: 2rem;
+    }
+
+    .mt-5{
+      margin-left: 2rem; 
+    }
+  
+  
+  }
+
+  @media screen and (max-width:1000px) {
+    .gtx{
+      width:19rem;
+      height: 18rem;
+    }
+
+    .gt{
+      grid-template-columns: 39% 39% 39% 39%;
+      grid-column-gap: 2rem;
+    }
+
+    .mt-5{
+      margin-left: 0rem; 
+      width: 100%;
+    }
+  
+  }
+
+  @media screen and (max-width:800px) {
+    .gtx{
+      width:18rem;
+      height: 18rem;
+    }
+
+    .gt{
+      grid-template-columns: 40% 40% 40% 40%;
+      grid-column-gap: 4rem;
+    }
+
+    .mt-5{
+      margin-left: 0rem; 
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width:770px) {
+    .gt{
+      grid-template-columns: 40% 40% 40% 40%;
+      grid-column-gap: 5rem;
+    }
+
+    .mt-5{
+      margin-left: 0rem; 
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width:750px) {
+    .gt{
+      grid-template-columns: 40% 40% 40% 40%;
+      grid-column-gap:3rem;
+    }
+
+    .mt-5{
+      margin-left: -3rem; 
+      width: 120%;
+    }
+  }
+
+  @media screen and (max-width:722px) {
+    .gtx{
+      width:17rem;
+      height: 18rem;
+    }
+  }
+
+  @media screen and (max-width:722px) {
+    .gtx{
+      width:16rem;
+      height: 17rem;
+    }
+  }
+
+  @media screen and (max-width:640px) {
+    .gtx{
+      width:16rem;
+      height: 17rem;
+    }
+
+    .gt{
+      grid-template-columns: 40% 40% 40% 40%;
+      grid-column-gap:4rem;
+    }
+  }
+
+  @media screen and (max-width:640px) {
+    .gtx{
+      width:16rem;
+      height: 16rem;
+    }
+
+    .gt{
+      grid-template-columns: 40% 40% 40% 40%;
+      grid-column-gap:5rem;
+    }
+    .mt-5{
+      margin-left: -3rem; 
+      width: 122%;
+    }
+  }
+
+  @media screen and (max-width:540px) {
+
+    .gt{
+      grid-template-columns: 40% 40% 40% 40%;
+      grid-column-gap:7rem;
+    }
+    .mt-5{
+      margin-left: -3rem; 
+      width: 128%;
+    }
   }

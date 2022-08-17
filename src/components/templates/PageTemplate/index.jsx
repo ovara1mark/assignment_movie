@@ -1,14 +1,15 @@
 import React from "react";
-import { Nabvar } from "../../organisms";
+import {  Navbar } from "../../organisms";
 import {Section} from "../../organisms";
 import { Search } from "../../organisms/Search";
 
 export const PageTemplate = () =>{
     return (
-        <header>
-            <Nabvar />
+        <>
+            <Navbar />
             <Section />
             <Search />
-        </header>
+
+        </>
     )
 }

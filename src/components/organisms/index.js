@@ -1,3 +1,3 @@
-export * from "./Navbar";
 export * from "./Section";
 export * from "./Search";
+export * from "./Navbar";

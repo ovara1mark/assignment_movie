@@ -7,7 +7,7 @@ import "./app.css";
 
 export const Search = () =>{
 
-    const [filter, setFilter] = useState("one");
+    const [filter, setFilter] = useState("");
 
   
     const handleInputChange = (e) => {
@@ -20,18 +20,23 @@ export const Search = () =>{
         <section>
 
             <div className="container">
-            <div className="input">
-                <Input className="in-0" onChange={handleInputChange}/>
-            </div>
+                <div className="input">
+                    <Input className="in-0" onChange={handleInputChange}/>
+                </div>
                     <div className="mt-5">
-                    {data
-                        .filter((elem) =>
-                        elem.Title.toLowerCase().includes(filter.toLowerCase())
-                        )
-                        .map((elem, idx) => {
-                        return <Movies key={idx} img={elem.Poster} title={elem.Title} />;
-                        })}
+                        <div className="gt">
+                                {data
+                                    .filter((elem) =>
+                                    elem.Title.toLowerCase().includes(filter.toLowerCase())
+                                    )
+                                    .map((elem, idx) => {
+                                    return <Movies className="gtx" key={idx} img={elem.Poster} title={elem.Title} />;
+                                    })}                           
+                        </div>
                     </div>
+            </div>
+            <div>
+                
             </div>
         </section>
         </>

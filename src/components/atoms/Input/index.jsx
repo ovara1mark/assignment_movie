@@ -1,9 +1,9 @@
 import React from "react";
 
-export const Input = ({label_sh, onChange}) =>{
+export const Input = ({label, className, onChange}) =>{
     return(
-        <label>
-            <input className={label_sh}
+        <label htmlFor={label}>
+            <input className={className}
              type="search" 
              onChange={onChange}/>
         </label>

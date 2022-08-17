@@ -6,7 +6,7 @@ import { MenuBar } from "../../molecules";
 import "./app.css";
 
 
-export const Nabvar = ({ icon,  mv_icon, menuSlider, displayValue}) =>{
+export const Navbar = ({ icon,  mv_icon, menuSlider, displayValue}) =>{
     const [display, displayNone] = useState(true)
     const displayFunc = ()=>displayNone(!display)
     return(
