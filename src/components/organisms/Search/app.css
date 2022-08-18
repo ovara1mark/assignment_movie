@@ -7,9 +7,10 @@
     border-radius: 1rem;
     border:  1px solid black;
     position:relative;
-    z-index: 99999999999999999999999999999999999999999999999;
+    /* z-index: 99999999999999999999999999999999999999999999999; */
   }
   
+
 
   .in-0:focus {
     outline: 0;
@@ -30,7 +31,7 @@
     margin-top:2rem;
     margin-left: 4rem;
     position: relative;
-    z-index: 999999999999999999999999999999999999999999999999999;
+    /* z-index: 999999999999999999999999999999999999999999999999999; */
 
   }
 

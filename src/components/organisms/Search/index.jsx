@@ -5,6 +5,7 @@ import data from "./data";
 import "./app.css";
 
 
+
 export const Search = () =>{
 
     const [filter, setFilter] = useState("");
@@ -35,10 +36,9 @@ export const Search = () =>{
                         </div>
                     </div>
             </div>
-            <div>
-                
-            </div>
+
         </section>
+
         </>
     )
 }

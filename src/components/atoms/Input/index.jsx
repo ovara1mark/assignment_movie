@@ -7,5 +7,6 @@ export const Input = ({label, className, onChange}) =>{
              type="search" 
              onChange={onChange}/>
         </label>
+
     )
 }

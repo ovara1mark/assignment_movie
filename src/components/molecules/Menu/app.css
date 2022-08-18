@@ -1,11 +1,13 @@
 .list-items {
     padding: 2px;
+    font-size: 1rem;
   }
 
   .menu{
     display: flex;
     width: 50%;
     padding-left: 5rem;
+
 }
 
 *{
@@ -24,6 +26,10 @@ h1,h2,h3,h4,h5,h6,p{
     .menu{
         padding-left: 1rem;
     }
+
+    .list-items {
+        padding: 0px;
+      }
 }
 
 

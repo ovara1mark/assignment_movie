@@ -23,3 +23,5 @@ export const Text = ({className,  children, type}) =>{
         </p>
     )
 }
+
+
